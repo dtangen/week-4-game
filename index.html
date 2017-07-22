@@ -8,12 +8,41 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-<div id="number"></div>
-<div id="wins"></div>
-<div id="losses"></div>
-<div id="crystals">
+
+<div class="container">
+
+<div class="row">
+	<div id="welcome" class="col-md-12 text-center">
+		<H1>Welcome to the Crystal Challenge!</H1>
+	</div>
 </div>
-<div id="TotalScore"></div>
+
+<div class="row">
+	<div id="rules">
+		<h2>How this works:</h2>
+		<p>The computer will randomly generate a number and display it below. It will also randomly generate four numbers for the crystal buttons.</p>
+		<p>By clicking on a crystal, its value will be added to the total score.</p>
+		<p>You win by matching the total score with the number to get. However, if you go over, you lose.</p>
+		<p>The game will reset with new values once you wither win or lose.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div id="number"></div>
+	<div id="wins"></div>
+	<div id="losses"></div>
+</div>
+
+<div id="crystals"></div>
+
+<div class="row">
+	<div id="TotalScore"></div>
+</div>
+
 <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+</div>
+
 </body>
+
 </html>
